@@ -17,6 +17,6 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('beranda', function () {
-    return view('beranda');
+Route::get('formlogin', function () {
+    return view('formlogin');
 });
