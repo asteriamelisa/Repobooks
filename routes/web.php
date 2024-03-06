@@ -24,3 +24,7 @@ Route::get('formlogin', function () {
 Route::get('beranda', function () {
     return view('beranda');
 });
+
+Route::get('detailbuku', function () {
+    return view('detailbuku');
+});
